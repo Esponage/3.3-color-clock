@@ -1,0 +1,25 @@
+body {
+  text-align: center;
+  color: white;
+}
+
+.clock {
+  font-size: 500%;
+  margin-top: 25%;
+  position: relative;
+}
+
+hr {
+  height: 5px;
+}
+
+.clock:hover .digital-clock {
+  display: none;
+  }
+
+.hex-clock {
+  display: none;
+}
+  .clock:hover .hex-clock {
+    display: block;
+    }
